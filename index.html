@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ioannis Karkalas – CV</title>
+  <meta name="description" content="CV of Ioannis Karkalas, MSc Computer Science and Engineering (Cybersecurity) student at DTU.">
+  <style>
+    :root { --accent: #1a4f9c; --text: #111; --muted: #555; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font: 15px/1.4 "Latin Modern Roman", "CMU Serif", "Computer Modern Serif", "Libre Baskerville", Georgia, "Times New Roman", serif;
+      color: var(--text);
+      background: #f3f4f6;
+    }
+    main {
+      max-width: 820px;
+      margin: 24px auto;
+      padding: 40px 48px;
+      background: #fff;
+      box-shadow: 0 1px 6px rgba(0,0,0,.12);
+    }
+    header { text-align: center; margin-bottom: 10px; }
+    h1 { margin: 0 0 4px; font-size: 1.9rem; letter-spacing: .08em; font-weight: 700; }
+    .contact { font-size: .95rem; }
+    .contact .sep { margin: 0 .8em; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    h2 {
+      display: inline-block;
+      margin: 14px 0 6px;
+      padding: 2px 8px;
+      font-size: .85rem;
+      font-weight: 700;
+      color: #fff;
+      background: var(--accent);
+    }
+    .entry { margin-bottom: 8px; }
+    .row { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    .row strong { font-weight: 700; }
+    .date { font-weight: 700; }
+    .row + .row .date { font-weight: 400; font-style: italic; font-size: .9rem; }
+    .tech { color: var(--muted); font-size: .9rem; }
+    .row a { font-weight: 700; }
+    .sub { font-style: italic; }
+    ul { margin: 3px 0 0; padding: 0; list-style: none; }
+    li { position: relative; margin-bottom: 3px; padding-left: 1.4em; text-align: justify; }
+    li::before { content: "\25B7"; position: absolute; left: .3em; color: var(--accent); font-size: .75em; top: .35em; }
+    p { margin: 4px 0; text-align: justify; }
+    .actions { text-align: center; margin-top: 28px; }
+    .actions button {
+      font: inherit; padding: 8px 18px; border: 1px solid var(--accent);
+      background: #fff; color: var(--accent); border-radius: 4px; cursor: pointer;
+    }
+    .actions button:hover { background: var(--accent); color: #fff; }
+    @media (max-width: 640px) {
+      main { margin: 0; padding: 24px 18px; box-shadow: none; }
+    }
+    @media print {
+      body { background: #fff; font-size: 11pt; }
+      main { margin: 0; padding: 0; box-shadow: none; max-width: none; }
+      h2 { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .actions { display: none; }
+      a { color: inherit; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>IOANNIS KARKALAS</h1>
+    <div class="contact">
+      Copenhagen, Denmark<span class="sep">|</span>+46 735214969<span class="sep">|</span><a href="mailto:ioannis.karkalas.cs@gmail.com">ioannis.karkalas.cs@gmail.com</a>
+    </div>
+  </header>
+
+  <h2>Education</h2>
+  <div class="entry">
+    <div class="row"><strong>Technical University of Denmark (DTU)</strong><span class="date">2026 – June 2028 (expected)</span></div>
+    <div class="row"><span class="sub">MSc Computer Science and Engineering – Cybersecurity specialization</span><span class="date">Copenhagen, Denmark</span></div>
+    <p>Relevant study: Fundamentals of Cybersecurity, Computer Science Modelling; ongoing EuroTeQ courses in Reverse Engineering, Distributed Systems, and Computer Networking.</p>
+  </div>
+  <div class="entry">
+    <div class="row"><strong>University of Thessaly</strong><span class="date">2021 – 2025</span></div>
+    <div class="row"><span class="sub">BSc Digital Systems</span><span class="date">Larissa, Greece</span></div>
+  </div>
+
+  <h2>Experience</h2>
+  <div class="entry">
+    <div class="row"><strong>Indie Games Startup LLC</strong><span class="date">Apr 2025 – Oct 2026</span></div>
+    <div class="sub">Unity / C# Developer</div>
+    <ul>
+      <li>Developed a physics-based interaction system for a Unity gameplay prototype using C# and event-driven pickup/drop mechanics.</li>
+      <li>Collaborated with developers through Git branching and merging; used pre-allocated buffers, logging, and editor gizmos to support debugging.</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <div class="row"><strong>University of Thessaly</strong><span class="date">Oct 2024 – Feb 2025</span></div>
+    <div class="row"><span class="sub">Technical Project Manager – Educational Android Prototype</span><span class="date">Larissa, Greece</span></div>
+    <ul>
+      <li>Coordinated approximately 10 members across art and game-development teams to create an educational platform prototype for Greek primary schools.</li>
+      <li>Oversaw MIT App Inventor infrastructure and integration of Scratch-based educational games.</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <div class="row"><strong>JOIST Innovation Park</strong><span class="date">Jan 2025 – Jul 2025</span></div>
+    <div class="row"><span class="sub">ICT Instructor (Part-time)</span><span class="date">Larissa, Greece</span></div>
+    <ul>
+      <li>Taught programming, educational robotics, and game development to local school groups and international students; developed hands-on workshop materials.</li>
+    </ul>
+  </div>
+  <p><strong>Additional experience:</strong> Construction Laborer, Tømrerfirmaet Simon og Hermann (Oct 2025 – Present); freelance PC assembly (approx. 20 builds over four years).</p>
+
+  <h2>Selected Projects</h2>
+  <div class="entry">
+    <div class="row"><strong><a href="https://github.com/retr0sity/speak2sheet">Speak2Sheet – Voice-Based Grading Application</a></strong><span class="tech">C#, Unity, Whisper.cpp, Excel</span></div>
+    <ul>
+      <li>Independently built an offline, bilingual (Greek/English) voice-driven grading application for Windows and Linux, integrating Whisper speech recognition and direct Excel file editing.</li>
+      <li>Implemented fuzzy name matching, a dynamic spreadsheet interface, and saving functionality; demonstrated the working application at the thesis defense.</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <div class="row"><strong><a href="https://github.com/retr0sity/gas-station-maps">Gas Station Maps</a></strong><span class="tech">PHP, Slim, MySQL, REST API, JWT</span></div>
+    <ul>
+      <li>Independently developed a locally functional university web application with gas-station mapping, CRUD operations, and JWT-based authentication.</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <div class="row"><strong><a href="https://github.com/retr0sity/mini_wget_c">mini_wget_c</a></strong><span class="tech">C, POSIX sockets, HTTP</span></div>
+    <ul>
+      <li>Built a lightweight HTTP downloader using TCP sockets, implementing request handling, response parsing, file transfers, and basic redirect support.</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <div class="row"><strong>Personal Linux Homelab (ongoing)</strong><span class="tech">Debian, Docker, Ollama</span></div>
+    <ul>
+      <li>Assembled a Debian server and deployed a locally hosted Qwen model through Ollama and a Docker-based web UI accessible on the home network.</li>
+    </ul>
+  </div>
+
+  <h2>Technical Skills</h2>
+  <p><strong>Languages:</strong> C, C#, Java, Python &nbsp;&nbsp; <strong>Backend / Data:</strong> PHP, SQL, MySQL, REST APIs</p>
+  <p><strong>Systems / Tools:</strong> Linux, Git, Docker (basic), SSH, Unity, HTTP/TCP socket programming</p>
+  <p><strong>Security exposure:</strong> Wireshark, Nmap, Ghidra, IDA Free, Hydra; introductory CTFs and 2026 Danish regional competition</p>
+
+  <h2>Languages</h2>
+  <p>Greek – Native &nbsp;|&nbsp; English – C1</p>
+
+  <div class="actions"><button onclick="window.print()">Download / Print as PDF</button></div>
+</main>
+</body>
+</html>

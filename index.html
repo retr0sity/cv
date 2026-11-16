@@ -59,9 +59,14 @@
       main { margin: 0; padding: 24px 18px; box-shadow: none; }
     }
     @media print {
-      body { background: #fff; font-size: 11pt; }
-      main { margin: 0; padding: 0; box-shadow: none; max-width: none; }
-      h2 { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      @page { size: A4; margin: 0; }
+      body { background: #fff; font-size: 9.8pt; line-height: 1.25; }
+      li { margin-bottom: 2px; }
+      .entry { margin-bottom: 6px; }
+      main { margin: 0; padding: 8mm 14mm; box-shadow: none; max-width: none; }
+      h2 { margin: 8px 0 4px; break-after: avoid; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      li::before { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .entry { break-inside: avoid; }
       .actions { display: none; }
       a { color: inherit; }
     }
